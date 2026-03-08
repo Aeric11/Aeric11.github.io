@@ -1540,7 +1540,7 @@ function updateSlots() {
 // ===== SUBMIT ACTIONS (with n8n webhook) =====
 async function callN8n(webhookPath, data) {
   // In production: replace with your n8n webhook URL
-  const N8N_BASE = 'https://your-n8n.domain.com/webhook';
+  const N8N_BASE = 'https://n8n.mathburaphahub.com/webhook-test/room-booking';
   try {
     await fetch(`${N8N_BASE}/${webhookPath}`, {
       method: 'POST',
